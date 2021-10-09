@@ -1,0 +1,73 @@
+body{
+background-color: #D4ECDD;
+background-size: cover;
+width: 100vw;
+overflow: hidden;}
+
+
+
+
+
+.nav{ position: absolute;
+    margin-top: -0.4%;}
+
+.logo{ 
+    width: 3vw;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 5.5vw;
+    }
+    
+i{position: absolute;
+    margin-top: 4.5vh;
+    margin-left: 85vw;
+    color: #112031;}
+    
+.bars i 
+   {position: absolute;
+     margin-top: 4.5vh;
+    margin-left: 90vw;
+    color: #112031;
+     }
+
+
+ .about{ color: #112031;
+       position: absolute;
+       margin-top: 5vh;
+       margin-left: 70vw;
+       padding-right: 1vw;
+       border-right: 1.4px solid #000000;}
+
+     
+.about::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #112031;
+    transform: scaleX(0);
+    transition: transform ease .3s;
+  }
+  
+  .about:hover::after {
+    transform: scaleX(1);
+  }
+  
+   
+   .contact{ color: #112031;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 77vw;
+}
+.contact::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #112031;
+    transform: scaleX(0);
+    transition: transform ease .3s;
+  }
+  
+  .contact:hover::after {
+    transform: scaleX(1);
+  }
+  
