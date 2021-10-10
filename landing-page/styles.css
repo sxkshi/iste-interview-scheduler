@@ -156,4 +156,30 @@ body{
   
   
   
+  @media screen and (max-width: 1240px) and (min-width:980px){
+      
+      .about{display: none;}
+  
+      .contact{display: none;}
+  
+      .mail{display: none;}
+      .logo{width: 5vw;}
+      .calender h1{
+          font-size: 6vh;
+      }
+      .calender img {
+          display: block;
+          width: 60vh;
+          height: 65vh;
+          margin-right: 4%;
+      }
+      span .log-in{
+          position: absolute;
+          margin-top: 4vh;
+          margin-left:10vw;
+      }
+      .sign-in{
+          margin-left:1.5vw;
+      }
+  }
  
