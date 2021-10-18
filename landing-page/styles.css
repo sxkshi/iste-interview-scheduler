@@ -1,185 +1,396 @@
 body{
-  background-color: #D4ECDD;
-  background-size: cover;
-  width: 100vw;
-  overflow: hidden;}
-  
-  .content
-  {
-      position: absolute;
-      width:100%;
-      height:62vh;
-      padding:10px;
-      margin-top: 6.8vh;
-  }
-  .shape{
-      padding:10.5px;
-  }
-  .rectangle{
-      width: 83vw;
-      height: 100%;
-      position: absolute;
-      margin-top: 9vh;
-      margin-left: 8%;
-  }
-  
-  .triangle{
-      width: 82.8vw;
-      height: 53vh;
-      position: absolute;
-      margin-top:45vh;
-      margin-left: 7.65%;
-      z-index: -1;
-  }
-  .container{
-      margin-left: -1%;
-      padding:1px;
-  }
-  .calender{
-      position:absolute;
-      width:90vw;
-      height:100vh;
-      padding:40px;
-  }
-  .calender img{
-      width:70vh;
-      height:75vh;
-      float: right;
-      margin-right:4%;
-  }
-  .calender h1{
-      margin-top:5vh;
-      padding:8vh 0 0 10vw;
-      color:#D4ECDD;
-      text-align: left;
-      font-size:7.5vh;
-  }
-  .calender p{
-      margin-top:20px;
-      padding:2vh 0 0 10vw;
-      font-size:3vh;
-      text-align:left;
-      width:45%;
-  }
-  span{
-      display: inline-block;
-      background-color: #D4ECDD;
-      width:14%;
-      height:7%;
-      text-align: center;
-      border-radius: 10px;
-      margin-top:10vh;
-      padding:10px;
-  }
-  .log-in{
-      margin-left:10vw;
-  }
-  .sign-in{
-      margin-left:1.5vw;
-  }
-  span a{
-      text-decoration: none;
-      text-align: center;
-      font-weight: bold;
-      color:#112031;
-  }
-  
-  span:hover{
-      transform: scale(1.1);
-      transition: ease 0.7s;
-  }
-  .mobileview{display: none;}
-  .nav{ position: absolute;
-      margin-top: -0.4%;}
-  
-  .logo{ 
-      width: 3vw;
-      position: absolute;
-      margin-top: 3vh;
-      margin-left: 5.5vw;
+    background-color: #D4ECDD;
+    background-size: cover;
+    width: 100vw;
+    overflow: hidden;}
+    
+    .content
+    {
+        position: absolute;
+        width:100%;
+        height:62vh;
+        padding:10px;
+        margin-top: 6.8vh;
+    }
+    .shape{
+        padding:10.5px;
+    }
+    .rectangle{
+        width: 83vw;
+        height: 100%;
+        position: absolute;
+        margin-top: 9vh;
+        margin-left: 8%;
+    }
+    
+    .triangle{
+        width: 82.8vw;
+        height: 53vh;
+        position: absolute;
+        margin-top:45vh;
+        margin-left: 7.65%;
+        z-index: -1;
+    }
+    .container{
+        margin-left: -1%;
+        padding:1px;
+    }
+    .calender{
+        position:absolute;
+        width:90vw;
+        height:100vh;
+        padding:40px;
+    }
+    .calender img{
+        width:70vh;
+        height:75vh;
+        float: right;
+        margin-right:4%;
+    }
+    .calender h1{
+        margin-top:5vh;
+        padding:8vh 0 0 10vw;
+        color:#D4ECDD;
+        text-align: left;
+        font-size:7.5vh;
+    }
+    .calender p{
+        margin-top:20px;
+        padding:2vh 0 0 10vw;
+        font-size:3vh;
+        text-align:left;
+        width:45%;
+    }
+    span{
+        display: inline-block;
+        background-color: #D4ECDD;
+        width:14%;
+        height:7%;
+        text-align: center;
+        border-radius: 10px;
+        margin-top:10vh;
+        padding:10px;
+    }
+    .log-in{
+        margin-left:10vw;
+    }
+    .sign-in{
+        margin-left:1.5vw;
+    }
+    span a{
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        color:#112031;
+    }
+    
+    span:hover{
+        transform: scale(1.1);
+        transition: ease 0.7s;
+    }
+    .mobileview{display: none;}
+    .nav{ position: absolute;
+        margin-top: -0.4%;}
+    
+    .logo{ 
+        width: 3vw;
+        position: absolute;
+        margin-top: 3vh;
+        margin-left: 5.5vw;
+        }
+        
+    i{position: absolute;
+        margin-top: 4.5vh;
+        margin-left: 85vw;
+        color: #112031;}
+        
+    .bars i 
+       {position: absolute;
+         margin-top: 4.5vh;
+        margin-left: 90vw;
+        color: #112031;
+         }
+    
+    
+     .about{ color: #112031;
+           position: absolute;
+           margin-top: 5vh;
+           margin-left: 70vw;
+           padding-right: 1vw;
+           border-right: 1.4px solid #000000;}
+    
+         
+    .about::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: #112031;
+        transform: scaleX(0);
+        transition: transform ease .3s;
       }
       
-  i{position: absolute;
-      margin-top: 4.5vh;
-      margin-left: 85vw;
-      color: #112031;}
+      .about:hover::after {
+        transform: scaleX(1);
+      }
       
-  .bars i 
-     {position: absolute;
-       margin-top: 4.5vh;
-      margin-left: 90vw;
-      color: #112031;
-       }
-  
-  
-   .about{ color: #112031;
-         position: absolute;
-         margin-top: 5vh;
-         margin-left: 70vw;
-         padding-right: 1vw;
-         border-right: 1.4px solid #000000;}
-  
        
-  .about::after {
-      content: '';
-      display: block;
-      height: 2px;
-      background-color: #112031;
-      transform: scaleX(0);
-      transition: transform ease .3s;
+       .contact{ color: #112031;
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: 77vw;
     }
-    
-    .about:hover::after {
-      transform: scaleX(1);
-    }
-    
-     
-     .contact{ color: #112031;
-      position: absolute;
-      margin-top: 5vh;
-      margin-left: 77vw;
-  }
-  .contact::after {
-      content: '';
-      display: block;
-      height: 2px;
-      background-color: #112031;
-      transform: scaleX(0);
-      transition: transform ease .3s;
-    }
-    
-    .contact:hover::after {
-      transform: scaleX(1);
-    }
-    
-  
-  
-  
-  
-  @media screen and (max-width: 1240px) and (min-width:980px){
+    .contact::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: #112031;
+        transform: scaleX(0);
+        transition: transform ease .3s;
+      }
       
-      .about{display: none;}
-  
-      .contact{display: none;}
-  
-      .mail{display: none;}
-      .logo{width: 5vw;}
-      .calender h1{
-          font-size: 6vh;
+      .contact:hover::after {
+        transform: scaleX(1);
       }
-      .calender img {
-          display: block;
-          width: 60vh;
-          height: 65vh;
-          margin-right: 4%;
-      }
-      span .log-in{
-          position: absolute;
-          margin-top: 4vh;
-          margin-left:10vw;
-      }
-      .sign-in{
-          margin-left:1.5vw;
-      }
-  }
- 
+      
+    
+    
+    
+    
+    @media screen and (max-width: 1240px) and (min-width:980px){
+        
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .calender h1{
+            font-size: 6vh;
+        }
+        .calender img {
+            display: block;
+            width: 60vh;
+            height: 65vh;
+            margin-right: 4%;
+        }
+        span .log-in{
+            position: absolute;
+            margin-top: 4vh;
+            margin-left:10vw;
+        }
+        .sign-in{
+            margin-left:1.5vw;
+        }
+    }
+   
+    
+    @media screen and (min-width: 908px) and (max-width:979px)
+    {
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .calender img{
+            display: block;
+            width:60vh;
+            height:65vh;
+            margin-right:4%;
+        }
+        .calender h1{
+            display: block;
+            margin-top:5vh;
+            padding:8vh 0 0 6vw;
+            color:#D4ECDD;
+            text-align: left;
+            font-size:5vh;
+        }
+        .calender p{
+            display: block;
+            margin-top:20px;
+            padding:2vh 0 0 6vw;
+            font-size:2.5vh;
+            text-align:left;
+            width:40%;
+        }
+    }
+   
+    
+    @media screen and  (max-width:907px) and (min-width:800px){
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .calender img{
+            display: block;
+            width:60vh;
+            height:65vh;
+            margin-right:4%;
+        }
+        .calender h1{
+            display: block;
+            margin-top:5vh;
+            padding:8vh 0 0 6vw;
+            color:#D4ECDD;
+            text-align: left;
+            font-size:5vh;
+        }
+        .calender p{
+            display: block;
+            margin-top:20px;
+            padding:2vh 0 0 6vw;
+            font-size:2.5vh;
+            text-align:left;
+            width:40%;
+        }
+    .sign-in{
+        position: absolute;
+        margin-left: 20vw;
+        margin-top: 4vw;
+    }
+    .log-in{position: absolute;
+        margin-left: 5vw;
+        margin-top: 4vw;
+    }
+    }
+    @media screen and  (max-width:799px) and (min-width:725px){
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .content{
+            position: absolute;
+            margin-top:2vw ;
+        }
+        .calender img{
+            display: block;
+            width:50vh;
+            height:55vh;
+            margin-right:4%;
+            margin-top: 10vh;
+        }
+        .calender h1{
+            display: block;
+            margin-top:5vh;
+            padding:8vh 0 0 6vw;
+            color:#D4ECDD;
+            text-align: left;
+            font-size:5vh;
+        }
+        .calender p{
+            display: block;
+            margin-top:20px;
+            padding:2vh 0 0 6vw;
+            font-size:2.5vh;
+            text-align:left;
+            width:40%;
+        }
+    .sign-in{
+        position: absolute;
+        margin-left: 20vw;
+        margin-top: 4vw;
+    }
+    .log-in{position: absolute;
+        margin-left: 5vw;
+        margin-top: 4vw;
+    }
+    }
+    @media screen and  (max-width:724px) and (min-width:641px){
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .content{
+            position: absolute;
+            margin-top:2vw ;
+        }
+        .calender img{
+            display: block;
+            width:40vh;
+            height:45vh;
+            margin-right:4%;
+            margin-top: 10vh;
+        }
+        .calender h1{
+            display: block;
+            margin-top:5vh;
+            padding:8vh 0 0 6vw;
+            color:#D4ECDD;
+            text-align: left;
+            font-size:5vh;
+        }
+        .calender p{
+            display: block;
+            margin-top:20px;
+            padding:2vh 0 0 6vw;
+            font-size:2.5vh;
+            text-align:left;
+            width:40%;
+        }
+    .sign-in{
+        position: absolute;
+        margin-left: 24vw;
+        margin-top: 4vw;
+        width: 15vw;
+    }
+    .log-in{position: absolute;
+        margin-left: 5vw;
+        margin-top: 4vw;
+        width: 15vw;
+    }
+    }
+    @media screen and  (max-width:640px) and (min-width:549px){
+        .about{display: none;}
+    
+        .contact{display: none;}
+    
+        .mail{display: none;}
+        .logo{width: 5vw;}
+        .content{
+            position: absolute;
+            margin-top:2vw ;
+        }
+        .calender img{
+            display: block;
+            width:35vh;
+            height:40vh;
+            margin-right:-1%;
+            margin-top: 10vh;
+        }
+        .calender h1{
+            display: block;
+            margin-top:5vh;
+            padding:8vh 0 0 6vw;
+            color:#D4ECDD;
+            text-align: left;
+            font-size:4vh;
+        }
+        .calender p{
+            display: block;
+            margin-top:20px;
+            padding:2vh 0 0 6vw;
+            font-size:2.5vh;
+            text-align:left;
+            width:40%;
+        }
+    .sign-in{
+        position: absolute;
+        margin-left: 24vw;
+        margin-top: 4vw;
+        width: 15vw;
+    }
+    .log-in{position: absolute;
+        margin-left: 5vw;
+        margin-top: 4vw;
+        width: 15vw;
+    }
+    }
+    
+    
