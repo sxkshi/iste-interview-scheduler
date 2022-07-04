@@ -119,6 +119,12 @@ body{
            padding-right: 1vw;
            border-right: 1.4px solid #000000;}
     
+    .nav .logout{ color: #112031;
+            position: absolute;
+            margin-top: 5vh;
+            margin-left: 81vw;
+            padding-right: 1vw;
+            }
          
     .about::after {
         content: '';
