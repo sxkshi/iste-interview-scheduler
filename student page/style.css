@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    background-color: #D4ECDD;
+    background-size: cover;
+    width: 95vw;
+    
+}
+
+.navv {
+    font-size: 1.3rem;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.navbar {
+    margin-right: 5%;
+}
+
+
+.container {
+    background-color: #D4ECDD;
+    margin-right: 5%;
+    width: 100%;
+
+}
+
+.card {
+    background-color: #D4ECDD;
+    border: none;
+  
+    width: 85%;
+    margin-left: 10%;
+
+   
+}
+
+.card-title {
+    border: none;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 83px;
+    text-align: center;
+    color: #2F5D62;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2%;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    padding-top: 0%;
+    font-family: 'Inter', sans-serif;
+ 
+    
+}
+.card-body {
+    border: none;
+    padding: 5%;
+  align-items: center;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0%;
+    
+}
+.card-text{
+width: 100%;
+
+margin-left: 5%;
+
+    
+}
+
+
+
+
+.suf
+{
+    background-image: url("/images/Rectangle_9.png");
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    min-height: 80%;
+   
+}
+.leftt{
+    height: 100%;
+}
+form{
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: url("/images/Rectangle_9.png");
+    margin-bottom: 10%;
+}
+
+
+form .inputs{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form .inputs .inputWrapper{
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-left: 5px solid #b3d2c2;
+    border-radius: 4px;
+    background: rgba(217, 217, 217, 0.4);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+input{
+    background: rgba(217, 217, 217, 0.4);
+    color: red;
+    border-top-right-radius: 25px;
+    border-radius: 25px;
+    padding: 3% ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+input ::placeholder{
+   color: red;
+
+}
+
+
+form span{
+    width: 1.5px;
+    height: 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+form i{
+    font-size: 20px;
+    color:  #2F5D62;
+    margin-right: 5%;
+    color: black;
+}
+
+form .inputs .inputWrapper input{
+    width: 90%;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none; 
+    color: black; background:rgba(217, 217, 217, 0.4) ;
+}
+
+form .inputs .inputWrapper input[type=password]{
+    letter-spacing: 0.8px;
+}
+
+
+
+form button{
+    width: 290px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #2F5D62;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #D2F5E3;
+
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #b3d2c2;
+}
+    
+    
+    
+@media screen and  (max-width:650px) and (min-width:550px) {
+    .card-title{
+     font-size: 40px;
+     line-height: 60px;
+
+    }
+}
+@media screen and  (max-width:550px) and (min-width:450px) {
+    .card-title{
+     font-size: 30px;
+     line-height: 50px;
+    }
+}
+@media screen and  (max-width:450px)  {
+    .card-title{
+     font-size: 30px;
+     line-height: 50px;
+    }
+}
+
+@media screen and  (max-width:400px) and (min-width:200px) {
+    form button{
+        width: 200px;}
+
+}
