@@ -1,89 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-body {
+body{
     background-color: #D4ECDD;
     background-size: cover;
-    width: 95vw;
+    width: 100vw;
+    overflow: hidden;}
     
-}
-
-.navv {
-    font-size: 1.3rem;
-    padding: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 37px;
-    color: #000000;
-}
-
-.navbar {
-    margin-right: 5%;
-}
+    .content
+    {
+        position: absolute;
+        width:100%;
+        height:62vh;
+        padding:10px;
+        margin-top: 6.8vh;
+    }
 
 
-.container {
-    background-color: #D4ECDD;
-    margin-right: 5%;
-    width: 100%;
 
-}
-
-.card {
-    background-color: #D4ECDD;
-    border: none;
-  
-    width: 85%;
-    margin-left: 10%;
-
-   
-}
-
-.card-title {
-    border: none;
-
-    font-style: normal;
-    font-weight: 800;
-    font-size: 57px;
-    line-height: 83px;
-    text-align: center;
-    color: #2F5D62;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 2%;
-    margin: 0%;
-    text-align: center;
-    align-items: center;
-    margin-left: 5%;
-    padding-top: 0%;
-    font-family: 'Inter', sans-serif;
- 
-    
-}
-.card-body {
-    border: none;
-    padding: 5%;
-  align-items: center;
-  text-align: center;
-  padding-top: 0%;
-  margin-top: 0%;
-    
-}
-.card-text{
-width: 100%;
-
-margin-left: 5%;
 
     
-}
-
-
-
-
 .suf
 {
-    background-image: url("images/Rectangle_9.png");
+    background-image: url("/images/Rectangle_9.png");
     display: flex;
     align-items: center;
     text-align: center;
@@ -101,7 +37,7 @@ form{
     flex-direction: column;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-image: url("images/Rectangle_9.png");
+    background-image: url("/images/Rectangle_9.png");
     margin-bottom: 10%;
 }
 

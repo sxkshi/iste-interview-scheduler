@@ -497,3 +497,207 @@ body{
             transition: ease 0.7s;
         }
     }
+
+
+
+
+
+
+
+ .modal-content {
+    background-image: url("images/Rectangle_9.png");
+    }
+    .modal-header{
+        border: none;
+    }
+    .modal-footer{
+        border: none;
+    }
+.suf
+{
+    background-image: url("images/Rectangle_9.png");
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    min-height: 80%;
+   
+}
+
+form{
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: url("images/Rectangle_9.png");
+    margin-bottom: 10%;
+}
+
+
+form .inputs{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form .inputs .inputWrapper{
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-left: 5px solid #b3d2c2;
+    border-radius: 4px;
+    background: rgba(217, 217, 217, 0.4);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+input{
+    background: rgba(217, 217, 217, 0.4);
+    color: black;
+    border-top-right-radius: 25px;
+    border-radius: 25px;
+    padding: 3% ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+input ::placeholder{
+   color: red;
+
+}
+
+
+form span{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(200, 200, 200);
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form i{
+    font-size: 20px;
+    color:  #2F5D62;
+    margin-top: 1%;
+margin-left: 2.25%;
+    color: black;
+    
+}
+
+form .inputs .inputWrapper input{
+    width: 90%;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none; 
+    color: ywllow; 
+    background:rgba(217, 217, 217, 0.4) ;
+
+}
+
+form .inputs .inputWrapper input[type=password]{
+    letter-spacing: 0.8px;
+}
+
+
+
+form button {
+    width: 120px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #2F5D62;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #D2F5E3;
+
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+form button:hover{
+    background-color: #b3d2c2;
+}
+    
+    
+    
+@media screen and  (max-width:650px) and (min-width:550px) {
+    .card-title{
+     font-size: 40px;
+     line-height: 60px;
+
+    }
+}
+@media screen and  (max-width:550px) and (min-width:450px) {
+    .card-title{
+     font-size: 30px;
+     line-height: 50px;
+    }
+}
+@media screen and  (max-width:450px)  {
+    .card-title{
+     font-size: 30px;
+     line-height: 50px;
+    }
+}
+
+@media screen and  (max-width:400px) and (min-width:200px) {
+    form button{
+        width: 200px;}
+
+}
+
+
+.modal-title {
+    font-size: 2.8rem;
+    color: #D2F5E3;
+    text-align: center;
+}
+.btnss{
+    background-color: #738f92;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    font-weight: 600;
+}
+.btnsss{
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    font-weight: 800;
+    background-color: #305d62;
+    color: white;
+    padding-left: 2.3%;
+    text-align:left ;
+    letter-spacing: 0.11rem;
+
+}
+.fa-plus {
+    color: white;
+    margin: 1%;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.btni{
+     margin-left: -23px;
+     color: black;
+     font-weight: 600;
+}
+
+.modal-content{
+    border-radius: 40px;
+}
